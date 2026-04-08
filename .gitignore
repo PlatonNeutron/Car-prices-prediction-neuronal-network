@@ -1,0 +1,33 @@
+# --- PyTorch & ML Artifacts ---
+# Model checkpoints and weights
+*.pt
+*.pth
+*.ckpt
+*.pwf
+
+# Large datasets or data folders
+data/
+datasets/
+raw_data/
+
+# Log directories (TensorBoard, WandB, etc.)
+runs/
+logs/
+wandb/
+
+# --- Standard Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+build/
+dist/
+*.egg-info/
+
+# --- OS & IDE ---
+.DS_Store
+.vscode/
+.idea/
